@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1>ENHANCING BUSINESS CAPABILITIES WITH AI & AUTOMATION</h1>
+        <p>Where Innovation Meets Efficiency. Based in London, we're pioneering the future of Automation and Artificial Intelligence since 2015. Serving over 300 clients worldwide, we're dedicated to customising solutions in Automation, AI, and beyond. Let's build a smarter, more efficient world together.</p>
+        <a asp-controller="Pages" asp-action="About" class="btn btn-primary">Read More</a>
+    </div>
+    <div class="hero-image">
+        <img src="~/images/stylized-device.png" alt="Stylized AI and Automation representation">
+    </div>
+</div>
+
+<!-- Services Section -->
+<div class="services-section">
+    <div class="services-content">
+        <h2 class="text-center">Our <span class="highlight">Services</span></h2>
+        <p class="text-center">Discover how our suite of AI and Automation services can redefine efficiency, drive innovation, and propel your business into the future.</p>
+
+        <div class="row text-center services-row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <img src="~/images/cloud.png" alt="Automation Icon" class="service-icon">
+                    <h3>ARKHAM AUTOMATE</h3>
+                    <p>Revolutionising workflows with bespoke automation solutions, enabling businesses to focus on their core operations while we automate the rest.</p>
+                    <a asp-controller="Pages" asp-action="Services" class="btn btn-link">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <img src="~/images/monitor-screen.png" alt="AI Icon" class="service-icon">
+                    <h3>ARKHAM AI APP BUILDER</h3>
+                    <p>Empowering organisations to build custom AI applications with ease, no matter the complexity of the task.</p>
+                    <a asp-controller="Pages" asp-action="Services" class="btn btn-link">Read More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box">
+                    <img src="~/images/light-bulb.png" alt="Consulting Icon" class="service-icon">
+                    <h3>ARKHAM CONSULTING</h3>
+                    <p>Providing expert consultancy in Automation and AI, guiding businesses through their digital transformation journey with strategic insights and practical implementations.</p>
+                    <a asp-controller="Pages" asp-action="Services" class="btn btn-link">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a asp-controller="Pages" asp-action="Services" class="btn btn-primary">View All</a>
+        </div>
+    </div>
+</div>

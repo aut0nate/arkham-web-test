@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a0f3c;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.hero-section {
+  padding: 5rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #00e1ff;
+  border: none;
+  color: #1a0f3c;
+}
+
+.decorative-shapes {
+  position: relative;
+}
+
+.decorative-shapes::before,
+.decorative-shapes::after {
+  content: '';
+  position: absolute;
+  background-color: #00e1ff;
+  opacity: 0.8;
+}
+
+.decorative-shapes::before {
+  width: 200px;
+  height: 400px;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 20px;
+}
+
+.decorative-shapes::after {
+  width: 100px;
+  height: 100px;
+  right: 5%;
+  bottom: 20%;
+  border-radius: 10px;
+}
